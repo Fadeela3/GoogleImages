@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+header div{
+    display: flex;
+    /* justify-items: center; */
+    justify-content: right;
+    gap: 14px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.searchBar{
+    display: flex;
+    
+}
+
+input{
+
+    outline: unset;
+}
+
+footer{
+    background-color: #eeeff0;
+    display: flex;
+}
